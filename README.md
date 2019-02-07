@@ -14,7 +14,9 @@ You can find some examples in the test fixtures.
 ##ALGORITHMS DATES/TIME  MATHEMATICS  NUMBERS
 
 
-With this Coding war, I was stuck for a good hour on how I would approach this because its been a while since I did one and what they were asking. I did alot of testing first and I knew had to do some type of javascript arithimetic operater like Modulus and division to go about it. So I declared a variables first for each increment of time `let sec = 0, min = 0, hour = 0;` and made a helper function to check if its a double digit number in:
+With this Coding war, I was stuck for a good hour on how I would approach this because its been a while since I did one and what they were asking. I did alot of testing first and I knew had to do some type of javascript arithimetic operater like Modulus and division to go about it. So I declared a variable first for each increment of time `let sec = 0, min = 0, hour = 0;` 
+
+and made a helper function to check if its a double digit number in:
  `let padNum = (num) => {
   if (num < 10) {
     return '0' + num;
